@@ -254,7 +254,7 @@ def generate(prompt_data, max_tokens=200):
 if __name__ == "__main__":
 
     # Load the necessary configs from the configs file
-    input_path, output_path, openai.api_key, max_tokens, requests_per_min = load_config('./config.yaml')
+    input_path, output_path, openai.api_key, max_tokens, requests_per_min = load_config('./config.yml')
 
     # Load the prompts from the input file (or from the progress file).
     prompts, progress_path = load_prompts(input_path)
