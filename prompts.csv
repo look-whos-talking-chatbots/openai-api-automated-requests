@@ -1,0 +1,5 @@
+iterations;model;prompt;system;
+2;gpt-3.5;"Write your prompts to this colum;Write your system prompts under this column";
+1000;gpt-4;"This is an example prompt (accompanied with a system prompt) to be sent to GPT-4 model 1000 times";"You are a helpful assistant.";
+500;gpt-4;"This is an example prompt (without a system prompt) to be sent to GPT-4 model 500 times";
+700;gpt-3.5;"This is an example prompt (without a system prompt) to be sent to GPT-3.5 model 700 times";

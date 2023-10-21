@@ -1,0 +1,8 @@
+api_keys:
+  openai: ' insert your secret key within these quotes ' # the secret key used for OpenAI API authorization.
+paths:
+  input_file: 'prompts.csv'          # the path to the CSV file (.csv) that contains the prompts. The default is set to "prompts.csv".
+  output_file: 'generations.jsonl'   # the path to the JSON-Lines file (.jsonl) that will be generated the prompts. The default is set to "generations.jsonl".
+params:
+  max_tokens: 200                    # the maximum number of tokens that the models are allowed to generate. The default is set to 200.
+  requests_per_min: 30               # the number of requests that will be sent to the API per minute. Setting this to too high, may cause a Rate Limit Error. The default is set to 30.
